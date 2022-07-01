@@ -16,7 +16,7 @@ export function TaskList() {
 
   function handleCreateNewTask() {
 
-    if(!setNewTaskTitle) return;
+    if(!newTaskTitle) return;
     
     const newTask = { 
       id: Math.random(), 
